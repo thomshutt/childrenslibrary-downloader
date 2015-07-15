@@ -3,7 +3,7 @@
 echo "Please enter the book ID (e.g rahaunt_00500205):"
 read BOOK_ID
 
-echo "\nPlease give the book a name:"
+echo "Please give the book a name:"
 read BOOK_NAME
 
 FIRST_LETTER=${BOOK_ID:0:1}
